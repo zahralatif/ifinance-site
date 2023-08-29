@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    width: fit-content;
 }
 
 a {
@@ -625,13 +626,18 @@ li {
 }
 
 .contact {
-    background-color: #252B42;
+    height: 1223px;
 }
 
-.contact:after {
+.contactdetails {
+    background-color: #252B42;
+    height: 807px;
+}
+
+/* .contact:after {
     content: calc(100%-807px);
     background-color: #FFF;
-}
+} */
 
 .contactdetails {
     display: flex;
